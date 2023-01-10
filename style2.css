@@ -1,0 +1,25 @@
+/* Further Work in 1st Page */ 
+body {
+    background-image: url(paper.jpg);
+}
+
+
+.contain{
+    background-color: #dbe2cb;
+    width: 72%; 
+    height: 70%; 
+    position: absolute;
+    margin: 100px; 
+    
+}
+.gif{
+    background-color:  #f3f7e9;
+    padding: 30px; 
+    position: absolute; 
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: 50 px; 
+    
+}
+
+
