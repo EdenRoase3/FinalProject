@@ -729,9 +729,37 @@ body, .wrap {
   transition: transform 800ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms linear;
 }
 
+
 #other{
   background: transparent;
   color: #ffffff;
   border: 0.15rem solid #000000;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+
+a:link, a:visited {
+  text-decoration : none;
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 1.15rem 2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  border-top: 0.15rem solid #bae9c1;
+  border-bottom: 0.15rem solid #2a4724;
+  box-shadow: 0 1rem 2rem rgba(104, 134, 109, 0.8);
+  transition: transform 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+a:hover, a:active {
+ transform: translatey(-0.5rem);
 }
