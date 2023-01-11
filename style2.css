@@ -1,7 +1,14 @@
 /* Further Work in 1st Page */ 
 body {
     background-image: url(paper.jpg);
+    -webkit-backface-visibility: hidden;
+    
 }
+
+@media screen and (min-aspect-ratio: 1/5) 
+{
+  html {}
+
 
 h1{
     color: white;
@@ -18,6 +25,7 @@ h3{
 
 .contain{
     background-color: #dbe2cb;
+    box-shadow: inset 0 0 10px 10px #bdd0ca;
     width: 80%; 
     height: 80%; 
     position: absolute;
@@ -34,5 +42,15 @@ h3{
     margin-left: 3%; 
     
 }
+
+.contain2{
+    position:absolute;
+    margin-left:40%;
+    margin-top: 20%;
+    
+    
+}
+  
+    }
 
 
