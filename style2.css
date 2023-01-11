@@ -3,13 +3,26 @@ body {
     background-image: url(paper.jpg);
 }
 
+h1{
+    color: white;
+    background: linear-gradient(90deg, #889268, #98e19d);
+    width: 500px;
+    margin-left: 29%; 
+}
+h3{
+    color:white; 
+    width: 300px;
+    background: linear-gradient(90deg, #889268, #98e19d);
+    margin-left: 35%;
+}
 
 .contain{
     background-color: #dbe2cb;
-    width: 72%; 
-    height: 70%; 
+    width: 80%; 
+    height: 80%; 
     position: absolute;
     margin: 100px; 
+    justify-content: center;
     
 }
 .gif{
@@ -18,7 +31,7 @@ body {
     position: absolute; 
     padding-right: 50px;
     margin-top: 30px;
-    margin-left: 50 px; 
+    margin-left: 3%; 
     
 }
 
